@@ -1,6 +1,18 @@
 /*
 Theme Name: Insta Blog
-Theme URI: http://www.ispeakcomputer.com
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://ispeakcomputer.com/
+Description: A mobile first blog based on Instagrams awesome UI.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, light, one-column, flexible-width, microformats, post-formats
+Text Domain: Insta Blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
 Version: 1.0
 */
 
@@ -14,5 +26,5 @@ body{
   margin: 0 auto;
   background-color: #FFFFFF;
   padding: 20px;
-  
+
 }
