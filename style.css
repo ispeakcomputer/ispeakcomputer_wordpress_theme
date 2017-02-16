@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Insta Blog
 Theme URI: http://wordpress.org/themes/twentythirteen
@@ -15,10 +16,11 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 Version: 1.0
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
-    background-color: silver;
-    font: 16px, sans-serif;
+    /*background-color: silver;*/
+    /*font: 16px, sans-serif;*/
 }
 body p{
   font-family: 'Montserrat', sans-serif;
@@ -41,29 +43,21 @@ h5, h4, h3, h2, h1 , ul {
   font-family: 'Montserrat', sans-serif;
   color: #5E5E5E;
 }
-.container{
-  width: 800px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  padding: 20px;
-
-}
 
 .my_header{
   background-color: #FFFFFF;
   position: fixed;
   margin-left: auto;
   margin-right: auto;
-    top:0px;
-    width: 100%;
-    z-index: 10;
-    font-weight: bold;
+  top:0px;
+  width: 100%;
+  z-index: 10;
+  font-weight: bold;
 }
 .my_header h1{
 text-align: center;
 }
 .my_header li{
-
   display: inline;
 }
 .my_header ul{
@@ -88,10 +82,28 @@ text-align: center;
    position: relative;
    top: 1px;
  }
-
-.links_box{
+.container{
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-top: 150px;
+}
+.posts img{
+  border: solid;
+  border-width: thick;
+  border-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
-  padding: 5%;
+  display: inline;
+  float: left;
+  position: relative;
+  clear: both;
+  /*padding: 1px;*/
+
+}
+.single_post{
+  /*display: block;*/
+  border: 2px;
+  border-style: solid;
 }
