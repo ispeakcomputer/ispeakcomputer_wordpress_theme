@@ -1,4 +1,3 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,6 +7,15 @@
     <?php wp_head()?>
   </head>
 <header>
-  <h1> <a href="<?php home_url('/')?>"> <?php bloginfo('name')?></a></h1>
+  <div class="my_header">
+<h1><strong>RYAN</strong>WRIGHT</h1>
+<ul>
+  <li><a href = "http://www.ispeakcomputer.com/resume/Ryan_Wright_Resume.pdf" >RESUME</a></li>
+  <li><a href = "http://www.ispeakcomputer.com#APPS"> APPS</a></li>
+  <li><a href = "http://www.github.com/needsMoreCoffee" >GITHUB</a></li>
+</ul>
+<hr>
+</div>
+  <!-- <h1> <a href="<?php home_url('/')?>"> <?php bloginfo('name')?></a></h1> -->
 </header>
-    <div="container">
+    <div class="container">
