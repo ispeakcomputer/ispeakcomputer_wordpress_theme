@@ -2,7 +2,7 @@
 /*
 Theme Name: Insta Blog
 Theme URI: http://wordpress.org/themes/twentythirteen
-Author: the WordPress team
+Author: Ryan Wright @ ispeakcomputer.com
 Author URI: http://ispeakcomputer.com/
 Description: A mobile first blog based on Instagrams awesome UI.
 Version: 1.0
@@ -82,12 +82,15 @@ text-align: center;
    position: relative;
    top: 1px;
  }
-.container{
+.my_container{
   width: 800px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
+  /*margin: 0 auto;*/
+  /*background-color: #FFFFFF;*/
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   margin-top: 150px;
+  /*background-color: red;*/
 }
 
 .posts img{
@@ -102,6 +105,19 @@ text-align: center;
   clear: both;
   margin: 5px;
 }
+
 .single_post{
   overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single_post h2, p, a{
+}
+.footer{
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: red;*/
 }

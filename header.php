@@ -23,12 +23,12 @@
   <div class="my_header">
 <h1><strong>RYAN</strong>WRIGHT</h1>
 <ul>
+  <li><a href = "http://www.ispeakcomputer.com"> HOME</a></li>
   <li><a href = "http://www.ispeakcomputer.com/resume/Ryan_Wright_Resume.pdf" >RESUME</a></li>
-  <li><a href = "http://www.ispeakcomputer.com#APPS"> APPS</a></li>
   <li><a href = "http://www.github.com/needsMoreCoffee" >GITHUB</a></li>
 </ul>
 <hr>
 </div>
   <!-- <h1> <a href="<?php home_url('/')?>"> <?php bloginfo('name')?></a></h1> -->
 </header>
-    <div class="container">
+    <div class="my_container">
