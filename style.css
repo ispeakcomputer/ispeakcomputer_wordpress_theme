@@ -17,7 +17,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Version: 1.0
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
 body{
     /*background-color: silver;*/
     /*font: 16px, sans-serif;*/
@@ -43,7 +43,36 @@ h5, h4, h3, h2, h1 , ul {
   font-family: 'Montserrat', sans-serif;
   color: #5E5E5E;
 }
-
+.toptitle{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  text-align: center;
+  /*font-family: 'Pinyon Script',cursive;*/
+  margin-bottom: -12px;
+}
+.subtitle {
+  text-align: center;
+  /*margin-bottom: -15px;*/
+  /*display: inline-block;*/
+  /*background-color: 666red;*/
+}
+.subtitle h3{
+  font-size: 15px;
+  display: inline-block;
+}
+.subtitle p{
+  /*float: left;*/
+  /*display: inline;*/
+  /*clear: both;*/
+  display: inline;
+  /*float: left;*/
+  /*vertical-align: top;*/
+  margin-right: 5px;
+  text-align: center;
+}
+.my_header h1{
+}
 .my_header{
   background-color: #FFFFFF;
   position: fixed;
@@ -54,7 +83,7 @@ h5, h4, h3, h2, h1 , ul {
   z-index: 10;
   font-weight: bold;
 }
-.my_header h1{
+.my_header h3{
 text-align: center;
 }
 .my_header li{
@@ -103,7 +132,7 @@ text-align: center;
   float: left;
   position: relative;
   clear: both;
-  margin: 5px;
+  margin: 25px;
 }
 
 .single_post{
