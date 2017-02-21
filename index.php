@@ -14,7 +14,12 @@
     </div>
   </div>
   <?php endwhile;?>
-<?php wp_pagenavi(); ?>
+</div>
+<div class="navi">
+  <div class="innernavi">
+
+    <?php posts_nav_link( ' ' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">') ?>
+  </div>
 </div>
 
 <?php get_footer()?>

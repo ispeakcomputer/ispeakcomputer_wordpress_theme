@@ -30,6 +30,6 @@
 </ul>
 <hr>
 </div>
-  <!-- <h1> <a href="<?php home_url('/')?>"> <?php bloginfo('name')?></a></h1> -->
+  
 </header>
     <div class="my_container">
