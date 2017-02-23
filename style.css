@@ -83,7 +83,7 @@ text-align: center;
   margin-left: -47px;
 }
 .my_header hr{
-  width: 800px;
+  width: 100%;
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -170,7 +170,29 @@ text-align: center;
   margin-top: 115px;
   padding: 5px;
 }
+.single_post h2{
+  font-size: 20px;
+}
 .footer{
   width: 100%;
 }
+}
+@media screen and (max-width: 650px) {
+  #readmore_button{
+    display: none;
+  }
+}
+@media screen and (max-height: 760px) {
+  .toptitle{
+    font-size: 25px;
+  }
+}
+@media screen and (max-height: 736px) {
+  .my_header{
+    position: static;
+  }
+  .my_container{
+    margin-top: 0;
+  }
+  }
 }
