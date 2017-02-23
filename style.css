@@ -160,3 +160,17 @@ text-align: center;
   margin-right: auto;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 800px) {
+
+.toptitle{
+    font-size: 25px;
+}
+.my_container{
+  width: 100%;
+  margin-top: 115px;
+  padding: 5px;
+}
+.footer{
+  width: 100%;
+}
+}
