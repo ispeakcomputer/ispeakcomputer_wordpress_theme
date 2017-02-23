@@ -124,7 +124,10 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-
+.single_post h2, p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 #readmore_button{
   margin: 0 auto;
   width: 35px;
@@ -192,7 +195,7 @@ text-align: center;
     position: static;
   }
   .my_container{
-    margin-top: 0;
+    margin-top: -17px;
   }
   }
 }
