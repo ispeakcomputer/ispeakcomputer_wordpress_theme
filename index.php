@@ -16,10 +16,14 @@
   <?php endwhile;?>
 </div>
 <div class="navi">
-  <div class="innernavi">
+  <!-- <div class="innernavi"> -->
+  <ul>
+  <li>
+    <?php posts_nav_link( '</li><li>' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">' , '<li><img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">') ?>
+    </li>
 
-    <?php posts_nav_link( ' ' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">') ?>
-  </div>
+  </ul>
+  <!-- </div> -->
 </div>
 
 <?php get_footer()?>

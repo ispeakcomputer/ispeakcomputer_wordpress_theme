@@ -18,10 +18,7 @@ Version: 1.0
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
-body{
-    /*background-color: silver;*/
-    /*font: 16px, sans-serif;*/
-}
+
 body p{
   font-family: 'Montserrat', sans-serif;
 }
@@ -48,26 +45,17 @@ h5, h4, h3, h2, h1 , ul {
   font-size: 45px;
   font-weight: lighter;
   text-align: center;
-  /*font-family: 'Pinyon Script',cursive;*/
   margin-bottom: -12px;
 }
 .subtitle {
   text-align: center;
-  /*margin-bottom: -15px;*/
-  /*display: inline-block;*/
-  /*background-color: 666red;*/
 }
 .subtitle h3{
   font-size: 15px;
   display: inline-block;
 }
 .subtitle p{
-  /*float: left;*/
-  /*display: inline;*/
-  /*clear: both;*/
   display: inline;
-  /*float: left;*/
-  /*vertical-align: top;*/
   margin-right: 5px;
   text-align: center;
 }
@@ -78,7 +66,7 @@ h5, h4, h3, h2, h1 , ul {
   position: fixed;
   margin-left: auto;
   margin-right: auto;
-  top:0px;
+  top: 0px;
   width: 100%;
   z-index: 10;
   font-weight: bold;
@@ -113,13 +101,9 @@ text-align: center;
  }
 .my_container{
   width: 800px;
-  /*margin: 0 auto;*/
-  /*background-color: #FFFFFF;*/
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
   margin-top: 150px;
-  /*background-color: red;*/
 }
 
 .posts img{
@@ -141,47 +125,30 @@ text-align: center;
   margin-right: auto;
 }
 
-.single_post h2, p, a{
-}
 .footer{
   width: 800px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  /*background-color: red;*/
 }
 .navi{
-  background-color: red;
-  width: 300px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
-  /*background-color: red;*/
-  /*padding: 12.5px;*/
-
 }
 .navi img{
   width: 76px;
   height: 76px;
-  display: inline-block;
-  float: left;
-  /*margin: 0 auto;*/
 }
-.innernavi{
-  /*position: absolute;*/
-
-  width: auto;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: green;
+.navi ul{
+  /*This is the needed code to center the ul. do not remove at anytime*/
+  text-align: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
 }
-#leftbutton{
-  /*display: inline;*/
-
-  /*float: left;*/
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*margin-left: 12px;*/
-  /*clear: right;*/
+.navi li{
+  display: inline;
 }
