@@ -4,14 +4,17 @@
 
   <?php while(have_posts()):the_post()?>
    <div class="single_post">
-     <a href="#"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded')); ?></a>
-    <h2><?php the_title()?></h2>
-    <?php the_excerpt(); ?>
-    <a href="<?php echo get_permalink(); ?>"> Read More...</a>
-    <div class="hashtags">
+     <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>
+    <a href="<?php echo get_permalink(); ?>">
+     <h2><?php the_title()?></h2>
+     <?php the_excerpt(); ?>
+      <img id="readmore_button" src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png"></a>
+
+    <!-- <div class="hashtags">
+
       <h4>Explore Related Posts</h4>
       <?php the_category(); ?>
-    </div>
+    </div> -->
   </div>
   <?php endwhile;?>
 </div>
