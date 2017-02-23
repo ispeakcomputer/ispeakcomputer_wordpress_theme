@@ -114,7 +114,7 @@ text-align: center;
   margin-right: auto;
   display: inline;
   float: left;
-  position: relative;
+  /*position: relative;*/
   clear: both;
   margin: 25px;
 }
@@ -163,6 +163,7 @@ text-align: center;
   margin-right: auto;
   margin-bottom: 25px;
 }
+
 @media screen and (max-width: 800px) {
 
 .toptitle{
@@ -180,7 +181,15 @@ text-align: center;
   width: 100%;
 }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
+.post_img{
+  /*margin: 0, auto;*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+  clear: none;
+}
   #readmore_button{
     display: none;
   }
