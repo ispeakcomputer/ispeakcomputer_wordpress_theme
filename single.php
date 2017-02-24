@@ -7,7 +7,7 @@
      <a href="#"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>
     <h2><?php the_title()?></h2>
     <?php the_content(); ?>
-    <a href="<?php echo get_permalink(); ?>"> Read More...</a>
+    <a href="<?php echo get_permalink(); ?>">Browse Categories</a>
     <div class="hashtags">
       <?php the_category() ?>
     </div>

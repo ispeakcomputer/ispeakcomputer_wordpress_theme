@@ -190,14 +190,20 @@ text-align: center;
   float: none;
   clear: none;
 }
-  #readmore_button{
-    display: none;
-  }
+.single_post p{
+  display: inline;
+}
+#readmore_button{
+    display: inline;
+}
+.navi{
+  margin-top: 35px;
+}
 }
 @media screen and (max-height: 760px) {
   .toptitle{
     font-size: 25px;
-  }
+}
 }
 @media screen and (max-height: 736px) {
   .my_header{
