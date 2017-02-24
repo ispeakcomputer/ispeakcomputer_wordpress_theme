@@ -1,7 +1,10 @@
 <?php get_header()?>
 
 <div class="posts">
+  <div class="search">
+    <?php get_search_form(); ?>
 
+  </div>
   <?php while(have_posts()):the_post()?>
    <div class="single_post">
      <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>

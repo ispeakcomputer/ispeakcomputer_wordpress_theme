@@ -2,7 +2,6 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -15,21 +14,12 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="drawing_eyeglass.svg"
    inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/icons/forward_search.png"
    inkscape:export-xdpi="13.838234"
    inkscape:export-ydpi="13.838234">
   <defs
-     id="defs4">
-    <linearGradient
-       id="linearGradient5465"
-       osb:paint="solid">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop5467" />
-    </linearGradient>
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -68,11 +58,11 @@
        id="guide3803" />
     <sodipodi:guide
        orientation="1,0"
-       position="453.55849,963.68553"
+       position="461.63971,967.72614"
        id="guide3805" />
     <sodipodi:guide
        orientation="1,0"
-       position="181.82746,882.87333"
+       position="199.00005,885.90378"
        id="guide3807" />
   </sodipodi:namedview>
   <metadata
@@ -116,16 +106,16 @@
        id="path3785"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#ffffff;stroke:#b7b7b7;stroke-width:21.00189209;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#b7b7b7;stroke-width:23.56906891;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="rect3801"
-       width="74.570702"
-       height="0.80862153"
-       x="522.3772"
-       y="94.52478"
-       transform="matrix(0.73839635,0.67436699,-0.65437661,0.7561688,0,0)" />
+       width="83.817955"
+       height="0.90603393"
+       x="518.97095"
+       y="101.96445"
+       transform="matrix(0.74736343,0.66441546,-0.66441546,0.74736343,0,0)" />
     <path
        sodipodi:type="arc"
-       style="stroke-width:20.10000000000000142;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;fill:#4d4d4d;marker-start:none;fill-opacity:0;stroke:#b7b7b7;stroke-opacity:1"
+       style="stroke-width:20.10000000000000142;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;fill:#b7b700;marker-start:none;fill-opacity:0;stroke:#000000;stroke-opacity:1"
        id="path3829"
        sodipodi:cx="306.07623"
        sodipodi:cy="406.87469"

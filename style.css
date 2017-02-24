@@ -105,7 +105,40 @@ text-align: center;
   margin-right: auto;
   margin-top: 150px;
 }
+.search{
+  width: 255px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+input[type="text"] {
+    border: 2px solid #B7B7B7;
+    border-radius: 20px;
+    font-size: 24px;
+    padding: 4px;width: 199px;
+  }
+.posts label{
+  display: none;
+}
+#s{
+  padding-left: 27px;
+}
+#searchsubmit{
+  background-image: url(http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward_search.png);
+  background-color: white;
+  background-repeat: round;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  font-size: 0px;
+  height: 42px;
+  width: 42px;
+  border: none;
+  padding-top: 13px;
+}
 
+.screen_reader_text{
+  display: none;
+}
 .post_img{
   border: solid;
   border-width: thick;
