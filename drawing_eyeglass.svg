@@ -2,6 +2,7 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -14,12 +15,21 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="drawing_eyeglass.svg"
+   sodipodi:docname="drawing.svg"
    inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/icons/forward_search.png"
    inkscape:export-xdpi="13.838234"
    inkscape:export-ydpi="13.838234">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       id="linearGradient5465"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5467" />
+    </linearGradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,20 +37,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="172.14369"
-     inkscape:cy="660.71041"
+     inkscape:zoom="1.4"
+     inkscape:cx="313.89404"
+     inkscape:cy="626.12014"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     inkscape:window-x="0"
+     inkscape:window-width="958"
+     inkscape:window-height="1026"
+     inkscape:window-x="960"
      inkscape:window-y="27"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="0">
     <sodipodi:guide
        orientation="0.70710678,0.70710678"
        position="271.42857,1734.2857"
@@ -58,11 +68,11 @@
        id="guide3803" />
     <sodipodi:guide
        orientation="1,0"
-       position="461.63971,967.72614"
+       position="453.55849,963.68553"
        id="guide3805" />
     <sodipodi:guide
        orientation="1,0"
-       position="199.00005,885.90378"
+       position="181.82746,882.87333"
        id="guide3807" />
   </sodipodi:namedview>
   <metadata
@@ -73,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -83,45 +93,65 @@
      id="layer1">
     <path
        sodipodi:type="arc"
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#b7b7b7;stroke-width:30.30000000000000071;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#b7b7b7;stroke-width:30.29999924;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path3009"
        sodipodi:cx="318.57144"
        sodipodi:cy="418.07648"
        sodipodi:rx="121.42857"
        sodipodi:ry="122.85714"
-       d="m 440.00002,418.07648 a 121.42857,122.85714 0 1 1 -242.85715,0 121.42857,122.85714 0 1 1 242.85715,0 z" />
+       d="m 440.00002,418.07648 a 121.42857,122.85714 0 1 1 -242.85715,0 121.42857,122.85714 0 1 1 242.85715,0 z"
+       transform="matrix(0.19644436,0,0,0.19644436,255.98984,335.94765)"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
     <path
        style="fill:#ffffff;stroke-width:70;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 279.84503,530.62034 c -42.31169,-15.72261 -71.78008,-52.05419 -78.01849,-96.18895 -10.93066,-77.33094 57.53119,-146.21388 133.55637,-134.37786 39.10938,6.08877 73.0353,31.73132 90.03006,68.04828 11.5119,24.60037 14.27858,60.10174 6.50723,83.4991 -10.02934,30.19552 -31.03565,56.63307 -56.44273,71.03616 -28.29705,16.04138 -65.57286,19.15312 -95.63244,7.98327 z"
+       d="m 310.96382,440.18505 c -8.31189,-3.08862 -14.10076,-10.22578 -15.32626,-18.89579 -2.14729,-15.19124 11.30165,-28.7229 26.23637,-26.39776 7.68279,1.19609 14.3474,6.23342 17.68589,13.36769 2.26147,4.8326 2.80495,11.80665 1.27831,16.40294 -1.97018,5.93173 -6.0968,11.12523 -11.08785,13.95463 -5.55882,3.15126 -12.88141,3.76253 -18.78646,1.56829 z"
        id="path3779"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
     <path
        inkscape:connector-curvature="0"
        id="path3783"
-       d="m 279.84503,530.62034 c -42.31169,-15.72261 -71.78008,-52.05419 -78.01849,-96.18895 -10.93066,-77.33094 57.53119,-146.21388 133.55637,-134.37786 39.10938,6.08877 73.0353,31.73132 90.03006,68.04828 11.5119,24.60037 14.27858,60.10174 6.50723,83.4991 -10.02934,30.19552 -31.03565,56.63307 -56.44273,71.03616 -28.29705,16.04138 -65.57286,19.15312 -95.63244,7.98327 z"
-       style="fill:#ffffff;stroke-width:70;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none" />
+       d="m 310.96382,440.18505 c -8.31189,-3.08862 -14.10076,-10.22578 -15.32626,-18.89579 -2.14729,-15.19124 11.30165,-28.7229 26.23637,-26.39776 7.68279,1.19609 14.3474,6.23342 17.68589,13.36769 2.26147,4.8326 2.80495,11.80665 1.27831,16.40294 -1.97018,5.93173 -6.0968,11.12523 -11.08785,13.95463 -5.55882,3.15126 -12.88141,3.76253 -18.78646,1.56829 z"
+       style="fill:#ffffff;stroke-width:70;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
     <path
        style="fill:#ffffff;stroke-width:70;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 279.84503,530.62034 c -42.31169,-15.72261 -71.78008,-52.05419 -78.01849,-96.18895 -10.93066,-77.33094 57.53119,-146.21388 133.55637,-134.37786 39.10938,6.08877 73.0353,31.73132 90.03006,68.04828 11.5119,24.60037 14.27858,60.10174 6.50723,83.4991 -10.02934,30.19552 -31.03565,56.63307 -56.44273,71.03616 -28.29705,16.04138 -65.57286,19.15312 -95.63244,7.98327 z"
+       d="m 310.96382,440.18505 c -8.31189,-3.08862 -14.10076,-10.22578 -15.32626,-18.89579 -2.14729,-15.19124 11.30165,-28.7229 26.23637,-26.39776 7.68279,1.19609 14.3474,6.23342 17.68589,13.36769 2.26147,4.8326 2.80495,11.80665 1.27831,16.40294 -1.97018,5.93173 -6.0968,11.12523 -11.08785,13.95463 -5.55882,3.15126 -12.88141,3.76253 -18.78646,1.56829 z"
        id="path3785"
-       inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#ffffff;stroke:#b7b7b7;stroke-width:23.56906891;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       id="rect3801"
-       width="83.817955"
-       height="0.90603393"
-       x="518.97095"
-       y="101.96445"
-       transform="matrix(0.74736343,0.66441546,-0.66441546,0.74736343,0,0)" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
     <path
        sodipodi:type="arc"
-       style="stroke-width:20.10000000000000142;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;fill:#b7b700;marker-start:none;fill-opacity:0;stroke:#000000;stroke-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:0;stroke:#b7b7b7;stroke-width:20.10000038;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
        id="path3829"
        sodipodi:cx="306.07623"
        sodipodi:cy="406.87469"
        sodipodi:rx="59.598999"
        sodipodi:ry="59.598999"
        d="m 365.67523,406.87469 a 59.598999,59.598999 0 1 1 -119.198,0 59.598999,59.598999 0 1 1 119.198,0 z"
-       transform="translate(-6.0609153,-9.0913725)" />
+       transform="matrix(0.19644436,0,0,0.19644436,254.79923,334.16172)"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
+    <rect
+       style="fill:#4d4d4d;fill-opacity:0;stroke:#b7b7b7;stroke-width:4.98446751;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3957"
+       width="1.9567331"
+       height="7.6266279"
+       x="-25.118851"
+       y="531.53235"
+       ry="0"
+       transform="matrix(0.70213158,-0.71204722,0.64124204,0.76733868,0,0)"
+       inkscape:export-filename="/home/khole/web_dev_projects/ispeakcomputer_wordpress_theme/forward_search.png"
+       inkscape:export-xdpi="70"
+       inkscape:export-ydpi="70" />
   </g>
 </svg>

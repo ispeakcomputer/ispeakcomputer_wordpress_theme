@@ -109,7 +109,8 @@ text-align: center;
   width: 255px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 75px;
+  padding-top: 20px;
 }
 input[type="text"] {
     border: 2px solid #B7B7B7;
@@ -126,7 +127,7 @@ input[type="text"] {
 #searchsubmit{
   background-image: url(http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward_search.png);
   background-color: white;
-  background-repeat: round;
+
   background-position: 50% 50%;
   /* put the height and width of your image here */
   font-size: 0px;
@@ -135,7 +136,6 @@ input[type="text"] {
   border: none;
   padding-top: 13px;
 }
-
 .screen_reader_text{
   display: none;
 }
@@ -151,7 +151,6 @@ input[type="text"] {
   clear: both;
   margin: 25px;
 }
-
 .single_post{
   overflow: auto;
   margin-left: auto;
@@ -166,7 +165,6 @@ input[type="text"] {
   width: 35px;
   display: block;
 }
-
 .navi{
   width: 100%;
   margin-left: auto;
@@ -202,6 +200,9 @@ input[type="text"] {
 .toptitle{
     font-size: 25px;
 }
+.search{
+  margin-top: 5px;
+}
 .my_container{
   width: 100%;
   margin-top: 115px;
@@ -215,6 +216,7 @@ input[type="text"] {
 }
 }
 @media screen and (max-width: 600px) {
+
 .post_img{
   /*margin: 0, auto;*/
   margin-left: auto;
