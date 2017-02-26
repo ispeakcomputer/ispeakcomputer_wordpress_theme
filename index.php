@@ -20,7 +20,9 @@
     </div> -->
   </div>
   <?php endwhile;?>
+  <hr>
 </div>
+
 <div class="navi">
   <!-- <div class="innernavi"> -->
   <ul>
