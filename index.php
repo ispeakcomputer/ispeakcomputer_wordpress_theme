@@ -7,7 +7,7 @@
   </div>
   <?php while(have_posts()):the_post()?>
    <div class="single_post">
-     <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>
+     <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array( 'class' => 'post_img')); ?></a>
     <a href="<?php echo get_permalink(); ?>">
      <h2><?php the_title()?></h2>
      <?php the_excerpt(); ?>
