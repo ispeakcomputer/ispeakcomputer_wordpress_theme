@@ -14,19 +14,19 @@
   </div>
   <hr>
 </div>
+<?php endwhile;?>
 <div class="navi">
   <!-- <div class="innernavi"> -->
 <ul>
    <li>
     <?php previous_post_link('%link', '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">'); ?>
    </li>
-<li> <a href="/blog">  <img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/home.png" alt="" /></li>
+<li> <a href="/blog">  <img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/home.png" /></a></li>
     <li>
     <?php next_post_link('%link','<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">'); ?>
     </li>
   </ul>
   <!-- </div> -->
 </div>
-<?php endwhile;?>
 
 <?php get_footer()?>

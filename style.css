@@ -42,6 +42,7 @@ h5, h4, h3, h2, h1 , ul {
 }
 .toptitle{
   font-family: 'Montserrat', sans-serif;
+  color: #333333;
   font-size: 45px;
   font-weight: lighter;
   text-align: center;
@@ -116,13 +117,14 @@ input[type="text"] {
     border: 2px solid #B7B7B7;
     border-radius: 20px;
     font-size: 24px;
-    padding: 4px;width: 199px;
+    padding: 4px;width: 135px;
   }
 .posts label{
   display: none;
 }
 #s{
   padding-left: 27px;
+  display: inline;
 }
 #searchsubmit{
   background-image: url(http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward_search.png);
@@ -135,6 +137,7 @@ input[type="text"] {
   width: 42px;
   border: none;
   padding-top: 13px;
+  display: inline;
 }
 .screen_reader_text{
   display: none;
