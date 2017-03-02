@@ -165,6 +165,9 @@ input[type="text"] {
   padding-left: 10px;
   padding-right: 10px;
 }
+.single_post h2{
+  font-size: 19px;
+}
 #readmore_button{
   margin: 0 auto;
   width: 35px;
@@ -224,7 +227,7 @@ input[type="text"] {
   padding: 5px;
 }
 .single_post h2{
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer{
   width: 100%;
