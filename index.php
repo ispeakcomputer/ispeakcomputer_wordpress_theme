@@ -11,7 +11,8 @@
     <a href="<?php echo get_permalink(); ?>">
      <h2><?php the_title()?></h2>
      <?php the_excerpt(); ?>
-      <img id="readmore_button" src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png"></a>
+      <img id="readmore_button" src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">
+    </a>
 
     <!-- <div class="hashtags">
 
