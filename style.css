@@ -40,6 +40,10 @@ h5, h4, h3, h2, h1 , ul, ol{
   font-family: 'Montserrat', sans-serif;
   color: #5E5E5E;
 }
+ol{
+  font-family: 'Montserrat', sans-serif;
+  color: #333333
+}
 .toptitle{
   font-family: 'Montserrat', sans-serif;
   color: #333333;
