@@ -6,10 +6,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="/css/normalize.css" media="screen" title="no title" charset="utf-8">
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>" media="screen" title="no title" charset="utf-8">
     <?php wp_head()?>
-      
+
   </head>
 <header>
   <div class="my_header">
