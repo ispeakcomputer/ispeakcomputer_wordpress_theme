@@ -112,6 +112,9 @@ text-align: center;
   margin-right: auto;
   margin-top: 125px;
 }
+.my_container a{
+  font-family: 'Montserrat', sans-serif;
+}
 .search{
   width: 255px;
   margin-left: auto;
