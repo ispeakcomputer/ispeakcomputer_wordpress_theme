@@ -36,9 +36,13 @@ body a:hover{
 nav-header{
   font-family: 'Montserrat', sans-serif;
 }
-h5, h4, h3, h2, h1 , ul {
+h5, h4, h3, h2, h1 , ul, ol{
   font-family: 'Montserrat', sans-serif;
   color: #5E5E5E;
+}
+ol{
+  font-family: 'Montserrat', sans-serif;
+  color: #333333
 }
 .toptitle{
   font-family: 'Montserrat', sans-serif;
@@ -106,7 +110,7 @@ text-align: center;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 125px;
 }
 .search{
   width: 255px;
@@ -114,6 +118,9 @@ text-align: center;
   margin-right: auto;
   margin-top: 100px;
   padding-top: 40px;
+}
+#single{
+  margin-top: 175px;
 }
 input[type="text"] {
     border: 2px solid #B7B7B7;
@@ -127,6 +134,7 @@ input[type="text"] {
 #s{
   padding-left: 27px;
   display: inline;
+
 }
 #searchsubmit{
   background-image: url(http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward_search.png);

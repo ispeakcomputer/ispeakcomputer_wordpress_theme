@@ -17,8 +17,8 @@
     <h1 class="toptitle">I SPEAK COMPUTER</h1>
 <div class="subtitle"><p>by</p><h3> <strong>RYAN</strong>WRIGHT</h3></div>
 <ul>
-  <li><a href = "http://www.ispeakcomputer.com"> HOME</a></li>
-  <li><a href = "http://www.ispeakcomputer.com/resume/Ryan_Wright_Resume.pdf" >RESUME</a></li>
+  <li><a href = "http://www.ispeakcomputer.com/blog/"> HOME</a></li>
+  <li><a href = "http://www.ispeakcomputer.com" >RESUME</a></li>
   <li><a href = "http://www.github.com/needsMoreCoffee" >GITHUB</a></li>
 </ul>
 <hr>
