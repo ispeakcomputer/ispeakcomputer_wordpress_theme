@@ -158,7 +158,7 @@ input[type="text"] {
 }
 .post_img{
   border: solid;
-  border-width: thick;
+  border-width: 4px;
   border-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
@@ -228,8 +228,9 @@ input[type="text"] {
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
+
   border: solid;
-  border-width: thick;
+  border-width: 4px;
   border-color: #EEEEEE;
 }
 
@@ -241,17 +242,19 @@ input[type="text"] {
 	left: 0;
 	width: 100%;
 	height: 100%;
+  padding: 5px;
 }
 
 .entry-content img,
 .entry-content iframe,
 .entry-content object,
 .entry-content embed {
-        overflow: hidden;
+        /*overflow: hidden;*/
         max-width: 100%;
-        border: none;
+
+
         border: solid;
-        border-width: thick;
+        border-width: 4px;
         border-color: #EEEEEE;
 }
 
