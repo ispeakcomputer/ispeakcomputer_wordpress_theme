@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/normalize.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>" media="screen" charset="utf-8">
     <meta charset="utf-8">
     <title><?php bloginfo('title')?></title>
