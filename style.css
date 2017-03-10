@@ -221,13 +221,16 @@ input[type="text"] {
   margin-bottom: 25px;
 }
 
-/*Make embedded videos responsive*/
+/*Make embedded images and videos responsive*/
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
+  border: solid;
+  border-width: thick;
+  border-color: #EEEEEE;
 }
 
 .video-container iframe,
@@ -244,7 +247,12 @@ input[type="text"] {
 .entry-content iframe,
 .entry-content object,
 .entry-content embed {
+        overflow: hidden;
         max-width: 100%;
+        border: none;
+        border: solid;
+        border-width: thick;
+        border-color: #EEEEEE;
 }
 
 @media screen and (max-width: 800px) {
