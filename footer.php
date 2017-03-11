@@ -1,7 +1,7 @@
 </div>
 
 <footer class="footer">
-   <?=date('Y')?> Copyright
+  <p><?=date('Y')?> Copyright</p>
 </footer>
 </body>
 </html>
