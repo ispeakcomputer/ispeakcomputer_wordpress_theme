@@ -70,6 +70,7 @@ ol{
   text-align: center;
 }
 .my_header h1{
+  margin-top: 15px;
 }
 .my_header{
   background-color: #FFFFFF;
@@ -115,6 +116,9 @@ text-align: center;
   margin-right: auto;
   margin-top: 150px;
 }
+.my_container a{
+  font-family: 'Montserrat', sans-serif;
+}
 .search{
   width: 255px;
   margin-left: auto;
@@ -157,7 +161,7 @@ input[type="text"] {
 }
 .post_img{
   border: solid;
-  border-width: thick;
+  border-width: 4px;
   border-color: #EEEEEE;
   margin-left: auto;
   margin-right: auto;
@@ -220,6 +224,42 @@ input[type="text"] {
   margin-bottom: 25px;
 }
 
+/*Make embedded images and videos responsive*/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+
+  border: solid;
+  border-width: 4px;
+  border-color: #EEEEEE;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img,
+.entry-content iframe,
+.entry-content object,
+.entry-content embed {
+        /*overflow: hidden;*/
+        max-width: 100%;
+
+
+        border: solid;
+        border-width: 4px;
+        border-color: #EEEEEE;
+}
+
 @media screen and (max-width: 800px) {
   .my_header{
     position: static;
@@ -229,6 +269,9 @@ input[type="text"] {
     margin-top: 5px;
 }
 .search{
+  margin-top: 5px;
+}
+#single{
   margin-top: 5px;
 }
 .my_container{
