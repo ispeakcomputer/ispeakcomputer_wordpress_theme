@@ -57,6 +57,9 @@ ol{
   margin-bottom: -10px;
 }
 .subtitle h3{
+  font-weight: lighter;
+}
+.subtitle h3{
   font-size: 15px;
   display: inline-block;
   color: #333333;
@@ -110,13 +113,13 @@ text-align: center;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 125px;
+  margin-top: 150px;
 }
 .search{
   width: 255px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   padding-top: 40px;
 }
 #single{
