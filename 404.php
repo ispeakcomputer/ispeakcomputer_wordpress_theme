@@ -2,7 +2,8 @@
 
 <div class="posts">
 
-
+<br>
+<br>
    <div id="giphy">
      <h1>Go Home, You're Lost</h1>
      <p><img class="entry-content" src="wp-content/themes/instablog/icons/gohome.gif" alt="" /></p>
@@ -18,6 +19,7 @@
 
   </ul>
   <!-- </div> -->
+<br>
 </div>
 
 <?php get_footer()?>
