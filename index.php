@@ -28,7 +28,7 @@
   <!-- <div class="innernavi"> -->
   <ul>
   <li>
-    <?php posts_nav_link( '</li><li>' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">' , '<li><img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">') ?>
+    <?php posts_nav_link( '</li><li>' , '<img src="wp-content/themes/instablog/icons/backward.png">' , '<li><img src="wp-content/themes/instablog/icons/forward.png">') ?>
     </li>
 
   </ul>
