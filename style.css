@@ -260,6 +260,16 @@ input[type="text"] {
         border-color: #EEEEEE;
 }
 
+#giphy h1{
+  margin: 0, auto;
+  text-align: center;
+  font-weight: bold;
+}
+#giphy img{
+  display: block;
+  width: 100%;
+}
+
 @media screen and (max-width: 800px) {
   .my_header{
     position: static;
