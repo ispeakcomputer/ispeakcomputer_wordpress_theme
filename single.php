@@ -19,11 +19,11 @@
   <!-- <div class="innernavi"> -->
 <ul>
    <li>
-    <?php previous_post_link('%link', '<img src="wp-content/themes/instablog/icons/backward.png">'); ?>
+    <?php previous_post_link('%link', '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">'); ?>
    </li>
-<li> <a href="/blog">  <img src="wp-content/themes/instablog/icons/home.png" /></a></li>
+<li> <a href="/blog">  <img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/home.png" /></a></li>
     <li>
-    <?php next_post_link('%link','<img src="wp-content/themes/instablog/icons/forward.png">'); ?>
+    <?php next_post_link('%link','<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">'); ?>
     </li>
   </ul>
   <!-- </div> -->
