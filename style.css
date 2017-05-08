@@ -331,9 +331,6 @@ input[type="text"] {
  margin-top: 25px;
 }
 @media screen and (max-height: 736px) {
-  .my_header{
-    position: static;
-  }
   .my_container{
     margin-top: -17px;
   }
