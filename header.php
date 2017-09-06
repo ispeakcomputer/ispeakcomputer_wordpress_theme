@@ -22,7 +22,7 @@
 <ul>
   <li><a href = "http://www.ispeakcomputer.com/blog/"> HOME</a></li>
   <li><a href = "http://www.ispeakcomputer.com" >RESUME</a></li>
-  <li><a href = "http://www.github.com/needsMoreCoffee" >GITHUB</a></li>
+  <li><a href = "https://github.com/ispeakcomputer" >GITHUB</a></li>
 </ul>
 <hr>
 </div>

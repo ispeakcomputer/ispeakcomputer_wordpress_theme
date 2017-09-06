@@ -36,13 +36,12 @@ body a:hover{
 nav-header{
   font-family: 'Montserrat', sans-serif;
 }
-h5, h4, h3, h2, h1 , ul, ol{
+h5, h4, h3, h2, h1 , ul, ol, p{
   font-family: 'Montserrat', sans-serif;
   color: #5E5E5E;
 }
 ol{
   font-family: 'Montserrat', sans-serif;
-  color: #333333
 }
 .toptitle{
   font-family: 'Montserrat', sans-serif;
@@ -332,9 +331,6 @@ input[type="text"] {
  margin-top: 25px;
 }
 @media screen and (max-height: 736px) {
-  .my_header{
-    position: static;
-  }
   .my_container{
     margin-top: -17px;
   }
