@@ -2,4 +2,9 @@
 
 A custom Wordpress theme built to match my website at ispeakcomputer.com
 
-Built with Instagram design in mind. 
+Built with Instagram design in mind.
+
+update wp-config.php with this .
+
+define('WP_HOME','http://example.com/newlocation');
+define('WP_SITEURL','http://example.com/newlocation');
