@@ -6,7 +6,7 @@
 <br>
    <div id="giphy">
      <h1>Go Home, You're Lost</h1>
-     <p><img class="entry-content" src="wp-content/themes/instablog/icons/gohome.gif" alt="" /></p>
+     <p><img class="entry-content" src="/icons/gohome.gif" alt="" /></p>
   </div>
   <hr>
 </div>
