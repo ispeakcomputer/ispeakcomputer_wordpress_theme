@@ -6,7 +6,7 @@
 <br>
    <div id="giphy">
      <h1>Go Home, You're Lost</h1>
-     <p><img class="entry-content" src="/icons/gohome.gif" alt="" /></p>
+     <p><img class="entry-content" src="/wp-content/themes/ispeakcomputer/icons/gohome.gif"/></p>
   </div>
   <hr>
 </div>
@@ -15,7 +15,9 @@
   <!-- <div class="innernavi"> -->
 <ul>
 
-<li> <a href="/blog">  <img src="wp-content/themes/instablog/icons/home.png" /></a></li>
+<li>
+  <a href="/blog">  <img src="/wp-content/themes/ispeakcomputer/icons/home.png" /></a>
+</li>
 
   </ul>
   <!-- </div> -->

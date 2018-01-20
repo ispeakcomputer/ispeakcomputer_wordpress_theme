@@ -9,9 +9,9 @@
    <div class="single_post">
      <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array( 'class' => 'post_img')); ?></a>
     <a href="<?php echo get_permalink(); ?>">
-     <h2><?php the_title()?></h2>
+     <h1><?php the_title()?></h1>
      <?php the_excerpt(); ?>
-      <img id="readmore_button" src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">
+      <img id="readmore_button" src="/wp-content/themes/ispeakcomputer/icons/forward.png">
     </a>
 
     <!-- <div class="hashtags">
@@ -28,7 +28,7 @@
   <!-- <div class="innernavi"> -->
   <ul>
   <li>
-    <?php posts_nav_link( '</li><li>' , '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">' , '<li><img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">') ?>
+    <?php posts_nav_link( '</li><li>' , '<img src="/wp-content/themes/ispeakcomputer/icons/backward.png">' , '<li><img src="/wp-content/themes/ispeakcomputer/icons/forward.png">') ?>
     </li>
 
   </ul>

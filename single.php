@@ -5,7 +5,7 @@
   <?php while(have_posts()):the_post()?>
    <div id="single" class="single_post">
      <a href="#"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>
-    <h2><?php the_title()?></h2>
+    <h1><?php the_title()?></h1>
     <?php the_content(); ?>
     <a href="<?php echo get_permalink(); ?>">Browse Categories</a>
     <div class="hashtags">
@@ -19,11 +19,13 @@
   <!-- <div class="innernavi"> -->
 <ul>
    <li>
-    <?php previous_post_link('%link', '<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/backward.png">'); ?>
+    <?php previous_post_link('%link', '<img src="/wp-content/themes/ispeakcomputer/icons/backward.png">'); ?>
    </li>
-<li> <a href="/blog">  <img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/home.png" /></a></li>
+ <li>
+   <a href="/">  <img src="/wp-content/themes/ispeakcomputer/icons/home.png" /></a>
+ </li>
     <li>
-    <?php next_post_link('%link','<img src="http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward.png">'); ?>
+    <?php next_post_link('%link','<img src="/wp-content/themes/ispeakcomputer/icons/forward.png">'); ?>
     </li>
   </ul>
   <!-- </div> -->

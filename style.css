@@ -1,6 +1,6 @@
 
 /*
-Theme Name: Insta Blog
+Theme Name: ispeakcomputer
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: Ryan Wright @ ispeakcomputer.com
 Author URI: http://ispeakcomputer.com/
@@ -73,7 +73,6 @@ ol{
 }
 .my_header{
   background-color: #FFFFFF;
-  position: fixed;
   margin-left: auto;
   margin-right: auto;
   top: 0px;
@@ -125,9 +124,7 @@ text-align: center;
   /*margin-top: 100px;*/
   padding-top: 40px;
 }
-#single{
-  margin-top: 175px;
-}
+
 input[type="text"] {
     border: 2px solid #B7B7B7;
     border-radius: 20px;
@@ -143,7 +140,7 @@ input[type="text"] {
 
 }
 #searchsubmit{
-  background-image: url(http://www.ispeakcomputer.com/blog/wp-content/themes/instablog/icons/forward_search.png);
+  background-image: url(http://www.ispeakcomputer.com/wp-content/themes/ispeakcomputer/icons/forward_search.png);
   background-color: white;
 
   background-position: 50% 50%;
@@ -175,12 +172,12 @@ input[type="text"] {
   margin-left: auto;
   margin-right: auto;
 }
-.single_post h2, p{
+.single_post h1, p{
   padding-left: 10px;
   padding-right: 10px;
 }
-.single_post h2{
-  font-size: 19px;
+.single_post h1{
+  font-size: 21px;
 }
 #readmore_button{
   margin: 0 auto;
@@ -293,7 +290,7 @@ input[type="text"] {
   padding: 5px;
 }
 .single_post h2{
-  font-size: 18px;
+  font-size: 17px;
 }
 .footer{
   width: 100%;
