@@ -266,6 +266,16 @@ input[type="text"] {
   width: 100%;
 }
 
+blockquote {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-left: 2px solid #b7b7b7;
+}
+code {
+    background-color: #eff0f1;
+}
+
 @media screen and (max-width: 800px) {
 .my_header{
     position: static;
