@@ -285,7 +285,7 @@ code {
     width: 100%;
   }
 .toptitle{
-    font-size: 25px;
+    /*font-size: 25px;*/
     margin-top: 5px;
 }
 .search{
@@ -329,18 +329,30 @@ code {
   margin-top: 35px;
 }
 }
-@media screen and (max-height: 760px) {
-.toptitle{
-  font-size: 25px;
-}
+@media screen and (max-height: 760px)  {
 
 .search{
  padding: 5px;
  margin-top: 25px;
 }
+}
+
+
 @media screen and (max-height: 736px) {
   .my_container{
     margin-top: -17px;
   }
+
   }
-}
+
+  @media screen and (max-width: 425px) {
+  .toptitle{
+    font-size: 30px;
+  }
+  }
+
+  @media screen and (max-width: 325px) {
+  .toptitle{
+    font-size: 25px;
+  }
+  }

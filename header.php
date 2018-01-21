@@ -28,7 +28,6 @@
 <header>
   <div class="my_header">
     <h1 class="toptitle">I SPEAK COMPUTER</h1>
-<div class="subtitle"><p>by</p><h3>RYAN</h3></div>
 <ul>
   <li><a href = "http://www.ispeakcomputer.com/"> HOME</a></li>
   <li><a href = "/resume/" >RESUME</a></li>
