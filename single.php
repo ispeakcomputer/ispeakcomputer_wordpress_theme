@@ -6,6 +6,7 @@
    <div id="single" class="single_post">
      <a href="#"><?php the_post_thumbnail( 'medium', array('class' => 'img-rounded', 'class' => 'post_img')); ?></a>
     <h1><?php the_title()?></h1>
+    <p><?php the_date('F j, Y'); ?></p>
     <?php the_content(); ?>
     <a href="<?php echo get_permalink(); ?>">Browse Categories</a>
     <div class="hashtags">

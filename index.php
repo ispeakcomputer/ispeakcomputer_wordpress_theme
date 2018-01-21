@@ -10,6 +10,7 @@
      <a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail( 'medium', array( 'class' => 'post_img')); ?></a>
     <a href="<?php echo get_permalink(); ?>">
      <h1><?php the_title()?></h1>
+     <p><?php the_date('F j, Y'); ?></p>
      <?php the_excerpt(); ?>
       <img id="readmore_button" src="/wp-content/themes/ispeakcomputer/icons/forward.png">
     </a>
