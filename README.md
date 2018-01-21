@@ -10,3 +10,5 @@ Put before the line "/* That's all, stop editing! Happy blogging. */"
 
 define('WP_HOME','http://example.com/newlocation');
 define('WP_SITEURL','http://example.com/newlocation');
+
+remember to add in goggle analytics to profile.
