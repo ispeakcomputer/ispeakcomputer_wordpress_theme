@@ -30,8 +30,10 @@
     <h1 class="toptitle">I SPEAK COMPUTER</h1>
 <ul>
   <li><a href = "http://www.ispeakcomputer.com/"> HOME</a></li>
-  <li><a href = "/resume/" >RESUME</a></li>
+  <!-- <li><a href = "/resume/" >RESUME</a></li> -->
   <li><a href = "https://github.com/ispeakcomputer" >GITHUB</a></li>
+  <li><a href = "https://instagram.com/ispeakcomputer" >INSTAGRAM</a></li>
+  <li><a href = "https://twitter.com/ispeakcomputers" >TWITTER</a></li>
 </ul>
 <hr>
 </div>
