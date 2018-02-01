@@ -10,7 +10,7 @@
 
   gtag('config', 'UA-112511806-1');
 </script>
-
+<meta name="google-site-verification" content="ilPNTiLaFnXfTW-5EwNzT0-Z5x7AwkxU5LktTaJ7QPs" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>" media="screen" charset="utf-8">
     <meta charset="utf-8">
     <title><?php bloginfo('title')?></title>
